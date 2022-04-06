@@ -1,33 +1,43 @@
 <h2>CatPhotoApp</h2>
 <main>
-  <p>Click here to view more <a href="#">cat photos</a>.</p>
-<a href="#">
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
-</a>
-<p>Things cats love:</p>
-<ul>
-    <li>Milk</li>
-    <li>Cheese</li>
-    <li>Meat</li>
-</ul>
-<p>Thing cats hate:</p>
-<ol>
-    <li>flea treatment</li>
-    <li>Thunder</li>
-    <li>Other cats</li>
-</ol>
-<form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" placeholder="cat photo URL" required>
-    <button type="submit">
-        Submit
-    </button>
-    <label for="indoor">
-        <input id="indoor" type="radio" name="indoor-outdoor">
-        Indoor
-    </label>
-    <label for="outdoor">
-        <input id="outdoor" type="radio" name="indoor-outdoor">
-        Outdoor
-    </label>
-</form>
+    <p>Click here to view more <a href="#">cat photos</a>.</p>
+    <a href="#">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </a>
+    <p>Things cats love:</p>
+    <ul>
+        <li>Milk</li>
+        <li>Cheese</li>
+        <li>Meat</li>
+    </ul>
+    <p>Thing cats hate:</p>
+    <ol>
+        <li>flea treatment</li>
+        <li>Thunder</li>
+        <li>Other cats</li>
+    </ol>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor">
+            Indoor
+        </label>
+        <label for="outdoor">
+            <input id="outdoor" type="radio" name="indoor-outdoor">
+            Outdoor
+        </label>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+       <label for="aggressive">
+           <input id="aggressive" type="checkbox" name="personality">
+           Aggressive
+       </label>
+       <label for="calmed">
+           <input id="calmed" type="checkbox" name="personality">
+           Calmed
+       </label>
+       <label for="playful">
+           <input id="playful" type="checkbox" name="personality">
+           Playful
+       </label>
+    </form>
 </main>
